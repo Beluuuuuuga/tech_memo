@@ -21,3 +21,6 @@ deploy_Staging:
     name: Staging
     url: https://Staging.app.net
 ```
+
+### [.travis.yml](https://github.com/emchristiansen/Billy/blob/master/.travis.yml)
+- opencv4のbefore scriptが参考になりそう
