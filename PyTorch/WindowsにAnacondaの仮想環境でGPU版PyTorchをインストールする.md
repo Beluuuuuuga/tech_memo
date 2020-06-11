@@ -30,7 +30,9 @@ $ conda install pytorch==1.0.0 torchvision==0.2.1 cuda100 -c pytorch
 
 4: GPUがきちんと認識されているか確認する
 
-Trueになっていれば
+TrueになっていればOK
+
+https://www.it-swarm.dev/ja/python/pytorch%E3%81%8Cgpu%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%8B%E3%81%A9%E3%81%86%E3%81%8B%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%AF%EF%BC%9F/836403850/
 
 ```
 $ python
