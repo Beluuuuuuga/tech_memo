@@ -10,7 +10,7 @@ https://medium.com/lsc-psd/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E6%99%82%E3%81%A
 https://qiita.com/ozaki_physics/items/985188feb92570e5b82d
 
 ```
-$ conda install ライブラリ名
+$ conda create -n 仮想環境名
 ```
 
 3: バージョンを確認
@@ -23,7 +23,7 @@ https://www.tensorflow.org/install/source#gpu_support_2
 
 
 ```
-$ conda activate ライブラリ名
+$ conda activate 仮想環境名
 $ conda install tensorflow-gpu==2.0.0
 $ python
 >>> tensorflow.python.client import device_lib
@@ -52,4 +52,9 @@ physical_device_desc: "device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01
 ]
 ```
 
+備考: 仮想環境確認
+
+```
+$ conda info -e
+```
 
