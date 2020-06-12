@@ -1,7 +1,9 @@
 - Use a GPU
+
 https://www.tensorflow.org/guide/gpu#using_multiple_gpus
 
 モデルを同時に学習するときのコード
+
 TF1系では下記のようになるが、TF2系では、そもそもdefine by run方式なので、
 このようにする必要がないのかもしれない
 
