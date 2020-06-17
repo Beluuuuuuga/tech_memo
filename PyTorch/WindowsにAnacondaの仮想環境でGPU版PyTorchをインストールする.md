@@ -26,6 +26,9 @@ https://pytorch.org/get-started/previous-versions/
 
 ```
 $ conda install pytorch==1.0.0 torchvision==0.2.1 cuda100 -c pytorch
+# CUDA 10.0
+# 後でこちらで入れ直した
+$ conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
 ```
 
 4: GPUがきちんと認識されているか確認する
