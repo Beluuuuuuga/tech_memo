@@ -1,5 +1,7 @@
 ## 提出記録
 1回目：2020/06/18 0.5484 
+2回目：2020/06/19 0.5484 
+
 
 ## PyTorchの知見
 ### 資料[TORCHVISION.MODELS](https://pytorch.org/docs/stable/torchvision/models.html)
@@ -37,7 +39,7 @@ predictions = model(x)
 torch.onnx.export(model, x, "faster_rcnn.onnx", opset_version = 11)
 ```
 
-### [Pytorch Faster-R-CNN with ResNet152 backbone](https://www.kaggle.com/maherdeebcv/pytorch-faster-r-cnn-with-resnet152-backbone)のコード
+### [Pytorch Faster-R-CNN with ResNet152 backbone](https://www.kaggle.com/maherdeebcv/pytorch-faster-r-cnn-with-resnet152-backbone)のコード(その[推論バージョン]())
 - KaggleではFasterRCNNを使用
 
 - 実装でわからない部分
@@ -58,9 +60,11 @@ class DataLoaderArguments:
     num_workers: int
     dataset_arguments: DatasetArguments
 ```
-  - クラスをインスタンス化して使用する場合の例
-  
-```py
+
+
+クラスをインスタンス化して使用する場合の例
+
+```hoge.py
 @dataclass
 class Hoge:
     i: int
