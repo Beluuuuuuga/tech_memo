@@ -22,3 +22,10 @@ conda install -c conda-forge opencv
 # sciklit learn
 conda install -c conda-forge scikit-learn
 ```
+
+winでは公式でサポートされてないため
+
+```
+pip install tensorflow-gpu==2.3
+pip install tensorflow-addons
+```
