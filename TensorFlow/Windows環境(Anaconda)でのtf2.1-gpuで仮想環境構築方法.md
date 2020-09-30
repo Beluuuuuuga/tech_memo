@@ -1,6 +1,9 @@
 ## コマンド
 
 ```
+# 仮想環境作成
+conda create -n 仮想環境名
+
 # TF: 2020/09/30の時点でバージョン2.1
 conda install tensorflow-gpu
 
