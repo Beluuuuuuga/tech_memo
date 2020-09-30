@@ -20,6 +20,7 @@ $ conda create -n 仮想環境名
 https://www.tensorflow.org/install/source#gpu_support_2
 
 4: 仮想環境でcondaインストール @ Windows
+
 以下はコマンドプロンプトで確認したときであり、ubuntuなどでは`tensorflow.python.client import device_lib`の前に`from`を入れる必要がある
 
 ```
