@@ -15,4 +15,7 @@ conda install -c anaconda pandas
 
 # opencv
 conda install -c conda-forge opencv
+
+# sciklit learn
+conda install -c conda-forge scikit-learn
 ```
