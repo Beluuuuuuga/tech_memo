@@ -28,7 +28,7 @@ $ conda activate 仮想環境名
 $ conda install tensorflow-gpu==2.0.0
 $ python
 >>> tensorflow.python.client import device_lib
->>> device_lib.list_local_devices（）
+>>> device_lib.list_local_devices()
 ```
 
 これで、GPUが表示されていればよい
