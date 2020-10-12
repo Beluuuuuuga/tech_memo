@@ -20,7 +20,10 @@ conda install -c anaconda pandas
 conda install -c conda-forge opencv
 
 # sciklit learn
-conda install -c conda-forge scikit-learn
+conda install -c conda-forge scikit-learn 
+
+# matplotlib
+conda install -c anaconda matplotlib
 ```
 
 winでは公式でサポートされてないため
